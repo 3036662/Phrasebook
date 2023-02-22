@@ -1,1 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T16:32:32.872Z" agent="5.0 (X11; Ubuntu)" version="20.8.22" etag="uioz5mU-ELbQAuo_JIEX" type="github"><diagram name="Страница 1" id="LsykoM-XeZNMaX7_PzGk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-22T16:50:30.775Z" agent="5.0 (X11; Ubuntu)" etag="a8pTRhPmzUxtkocCnKle" version="20.8.22" type="github">
+  <diagram name="Страница 1" id="LsykoM-XeZNMaX7_PzGk">
+    <mxGraphModel dx="1360" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sTBAQFcDnXkxprwPxDST-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="sTBAQFcDnXkxprwPxDST-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTBAQFcDnXkxprwPxDST-3" target="sTBAQFcDnXkxprwPxDST-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-3" value="Установить соединение с сервером" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTBAQFcDnXkxprwPxDST-4" target="sTBAQFcDnXkxprwPxDST-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-4" value="Сравнить дату локальной БД с датой обновления БД на сервере" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTBAQFcDnXkxprwPxDST-6" target="sTBAQFcDnXkxprwPxDST-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="355" />
+              <mxPoint x="730" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-19" value="БД Актулальна" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sTBAQFcDnXkxprwPxDST-18">
+          <mxGeometry x="-0.8515" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-6" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-10" value="Локальная БД не актульна" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="sTBAQFcDnXkxprwPxDST-6" target="sTBAQFcDnXkxprwPxDST-9">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <mxPoint x="395" y="450" as="targetPoint" />
+            <mxPoint x="395" y="380" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTBAQFcDnXkxprwPxDST-9" target="sTBAQFcDnXkxprwPxDST-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-9" value="Получить все записи БД, с датой обновления &amp;gt; даты локальной БД" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="420" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTBAQFcDnXkxprwPxDST-11" target="sTBAQFcDnXkxprwPxDST-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-11" value="&lt;pre class=&quot;lang-sql s-code-block&quot;&gt;&lt;code class=&quot;hljs language-sql&quot;&gt;INSERT &lt;span class=&quot;hljs-keyword&quot;&gt;INTO&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;table&lt;/span&gt; (...) &lt;span class=&quot;hljs-keyword&quot;&gt;VALUES&lt;/span&gt;(...) &lt;span class=&quot;hljs-keyword&quot;&gt;ON&lt;/span&gt; DUPLICATE KEY &lt;span class=&quot;hljs-keyword&quot;&gt;UPDATE&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="510" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sTBAQFcDnXkxprwPxDST-14" target="sTBAQFcDnXkxprwPxDST-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-14" value="Обновить данные в репозиториях тем и фраз" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-24" value="Соединение установлено" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTBAQFcDnXkxprwPxDST-20" target="sTBAQFcDnXkxprwPxDST-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-26" value="Нет связи" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sTBAQFcDnXkxprwPxDST-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-20" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTBAQFcDnXkxprwPxDST-25" target="sTBAQFcDnXkxprwPxDST-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTBAQFcDnXkxprwPxDST-25" value="Ждать 10 сек" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="77.5" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

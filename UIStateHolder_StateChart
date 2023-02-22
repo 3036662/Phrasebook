@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T11:17:48.880Z" agent="5.0 (X11; Ubuntu)" etag="imbB0oOJQn2uBy259O5P" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-22T11:26:44.027Z" agent="5.0 (X11; Ubuntu)" etag="neihvXl74l0hYkSaW_mZ" version="20.8.22" type="github">
   <diagram name="Страница 1" id="igEM7IqSJc94Or6Kgb1f">
     <mxGraphModel dx="1360" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,14 @@
         <mxCell id="ybQjSbqLsQCMPiGPH3BD-20" value="&lt;div&gt;Нажата кнопка &quot;меню&quot;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ybQjSbqLsQCMPiGPH3BD-19">
           <mxGeometry x="-0.5509" y="2" relative="1" as="geometry">
             <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ybQjSbqLsQCMPiGPH3BD-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ybQjSbqLsQCMPiGPH3BD-1" target="ybQjSbqLsQCMPiGPH3BD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ybQjSbqLsQCMPiGPH3BD-26" value="&lt;div&gt;Нажата кнопка &quot;назад&quot;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ybQjSbqLsQCMPiGPH3BD-25">
+          <mxGeometry x="0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="22" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ybQjSbqLsQCMPiGPH3BD-1" value="Отображение списка тем" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -58,6 +66,9 @@
         </mxCell>
         <mxCell id="ybQjSbqLsQCMPiGPH3BD-10" value="Запуск программы" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ybQjSbqLsQCMPiGPH3BD-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ybQjSbqLsQCMPiGPH3BD-24" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="125" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
